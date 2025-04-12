@@ -1,0 +1,4 @@
+k8s-mount/
+node_modules/
+docker-compose.yml
+.env

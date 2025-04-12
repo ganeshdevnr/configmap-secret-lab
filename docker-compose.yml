@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  configmap-lab:
+    build: .
+    container_name: configmap-lab
+    env_file:
+      - .env
+    volumes:
+      - ./k8s-mount/etc:/etc:ro
